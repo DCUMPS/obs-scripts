@@ -51,7 +51,7 @@
     var c;
     setInterval(
       c = function () {
-        output.innerText = moment().format(urlParams["format"] || 'HH:mm:ssA');
+        output.innerText = moment().format(urlParams["format"] || 'hh:mm:ssA');
       }, 1000);
     c();
   </script>
